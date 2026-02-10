@@ -1,0 +1,17 @@
+name: CropsPlus
+version: 1.0
+main: com.cropsplus.CropsPlus
+api-version: 1.21
+authors: [PluginDev]
+description: Advanced crop management system.
+permissions:
+  crops.admin:
+    description: Allows full control of the plugin
+    default: op
+  crops.use:
+    description: Allows use of basic commands
+    default: true
+commands:
+  crops:
+    description: Main command for Crops+
+    usage: /crops [help|menu|clearholo|reload]

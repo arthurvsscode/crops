@@ -1,0 +1,16 @@
+settings:
+  holograms:
+    enabled: true
+    # Raytrace distance for showing holograms
+    view-distance: 5
+  automation:
+    max-per-player: 10
+    interval-seconds: 60
+  quests:
+    reset-time: "00:00"
+
+messages:
+  prefix: "&2[Crops+] &r"
+  no-permission: "&cYou do not have permission."
+  reload: "&aConfiguration reloaded."
+  hologram-cleared: "&aNearby holograms cleared."
